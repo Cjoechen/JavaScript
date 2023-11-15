@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width: 1920px;
+    height: 4805px;
+    background-color: #fff;
+}
+.header{
+    width: 1920px;
+    height: 80px;
+    background-color: #aa0601;
+}
+.pic img{
+    top: 16px;
+    left: 312px;
+    width: 80px;
+    height: 49px;
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    top: 25px;
+    left: 1116px;
+    width: 80px;
+    height: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.picture img{
+    top: 80px;
+    left: 0px;
+    width: 1920px;
+    height: 787px;
+    background: transparent url('img/68.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.word{
+    display: float;
+}
+.word h2{
+    top: 376px;
+    left: 1107px;
+    width: 502px;
+    height: 54px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 36px/54px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal normal 36px/54px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+.word h3{
+    top: 430px;
+    left: 1032px;
+    width: 576px;
+    height: 96px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold 64px/96px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 64px/96px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+.buttom {
+    top: 530px;
+    left: 1504px;
+    width: 104px;
+    height: 41px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-color: red;
+    border-radius: 10px;
+}
+.buttom a{
+    top: 536px;
+    left: 1516px;
+    width: 80px;
+    height: 29px;
+    font: var(--unnamed-font-style-normal) normal medium 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.aim{
+    display: flex;
+    top: 867px;
+    left: 0px;
+    width: 1920px;
+    height: 488px;
+    background: var(--unnamed-color-fbf2f2) 0% 0% no-repeat padding-box;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.aim .box{
+    width: 306px;
+    height: 250px;
+    color: #650300;
+    font-size: 36px;
+    text-align: center;
+}
+.glass{
+    width: 1920px;
+    display: flex;
+}
+.glass .box1{
+    width: 416px;
+    height: 450px;
+}
